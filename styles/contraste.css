@@ -1,0 +1,42 @@
+body.contraste,
+body.contraste div.header,
+body.contraste div.header div#main_search input,
+body.contraste div.header div#main_search button,
+body.contraste div.panel,
+body.contraste div.panel div.panel-heading,
+body.contraste div.panel a,
+body.contraste div.footer,
+body.contraste div.footer h2,
+body.contraste div.region-extra-footer a,
+body.contraste ol.breadcrumb,
+body.contraste ol.breadcrumb a,
+body.contraste div#main_content a,
+body.contraste input {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+body.contraste div.header ul.accessibility span.badge,
+body.contraste div.header ul.social_media li,
+body.contraste div.header ul.social_media li a {
+  background: #fff;
+  color: #000;
+}
+
+body.contraste div.header_bottom {
+  background: #333;
+}
+
+body.contraste div#main_navbar ul.navbar-nav li {
+  border-top: 1px solid #fff;
+  background: #000;
+}
+
+body.contraste div#main_navbar ul.navbar-nav li a {
+  color: #fff;
+  background: #000;
+}
+
+body.contraste div.footer .region .block {
+  border-left: 1px dotted #fff;
+}

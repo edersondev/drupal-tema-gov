@@ -1,0 +1,134 @@
+.header {
+  background-image: radial-gradient(ellipse at center, #fbda43 1%, #f8c60b 100%);
+  color: #03316f;
+}
+
+.header a,
+.header a:hover {
+  color: #03316f;
+  text-decoration: none;
+}
+
+.site_name {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.links_top {
+  padding-top: 10px;
+}
+
+.site_slogan {
+  text-transform: uppercase;
+}
+
+.accessibility li {
+  font-size: 11px;
+}
+
+.accessibility .badge {
+  font-size: 10px;
+  color: #fff;
+  padding: 2px 3px;
+  background-color: #0a1857;
+  border-radius: 0px;
+}
+
+.site_actions {
+  text-transform: uppercase;
+}
+
+.site_actions li {
+  font-size: 11px;
+  border-bottom: 1px dotted #03316f;
+}
+
+.social_media {
+  padding-top: 10px;
+  margin-left: 0px !important;
+}
+
+.social_media li {
+  background-color: #dcffe4;
+  border-radius: 2px;
+  padding-right: 2px !important;
+  padding-left: 2px !important;
+}
+
+.social_media li a,
+.social_media li a:hover {
+  color: #03316f;
+}
+
+.social_media li:hover {
+  background-color: #ffffff;
+}
+
+.header_bottom {
+  background: #f8b904;
+}
+
+.barra-servicos {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.barra-servicos li a {
+  color: #03316f;
+  font-size: 12px;
+}
+
+.barra-servicos li {
+  border-right: 1px solid #03316f;
+  padding-right: 10px !important;
+  padding-left: 10px !important;
+}
+
+.barra-servicos .last {
+  border-right: none;
+}
+
+/* Styles for footer */
+.footer {
+  background: #f8c300;
+  color: #03316f;
+}
+
+.footer .region {
+  margin: 25px 0px 25px 0px;
+}
+
+.footer .region .block {
+  border-left: 1px dotted #03316f;
+  margin-bottom: 20px;
+}
+
+.footer h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #03316f;
+  margin: 0px 0px 10px 0px;
+}
+
+.footer li.leaf,
+.footer li.expanded {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.footer li a {
+  color: #03316f;
+}
+
+.footer ul.menu {
+  padding: 0px;
+}
+.footer ul.menu li {
+  margin: 0 0 0 1.5em;
+  list-style-type: square;
+}
+
+#footer-brasil {
+  background: none repeat scroll 0% 0% #f28f00;
+  padding: 1em 0px;
+  max-width: 100%;
+}

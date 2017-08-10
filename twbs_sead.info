@@ -1,0 +1,47 @@
+; Doc for reference: https://www.drupal.org/docs/7/theming
+
+name = Tema SEAD
+description = Tema responsivo com twitter-bootstrap-3
+core = 7.x
+
+; Stylesheets
+stylesheets[all][] = bootstrap-3.3.7/css/bootstrap.min.css
+stylesheets[all][] = font-awesome-4.7.0/css/font-awesome.min.css
+stylesheets[all][] = styles/style.css
+stylesheets[all][] = styles/contraste.css
+
+; Scripts
+scripts[] = bootstrap-3.3.7/js/bootstrap.min.js
+scripts[] = js/custom.js
+scripts[] = js/js.cookie.js
+
+; REGIONS
+
+; Default regions - START
+regions[sidebar_first]  = Left sidebar
+regions[sidebar_second] = Right sidebar
+regions[content]        = Content
+regions[header]         = Header
+regions[footer]         = Footer
+regions[highlighted]    = Highlighted
+regions[help]           = Help
+regions[page_top]       = Page Top
+regions[page_bottom]    = Page Bottom
+; Default regions - END
+regions[sidebar_top]    = Barra lateral esquerda top
+regions[content_top]    = Conteúdo top
+regions[search]         = Box Pesquisar
+regions[menu_servicos]  = Menu serviços
+regions[menu_sidebar]   = Menu sidebar
+regions[extra_footer]   = Informações no rodapé
+regions[content_bottom] = Conteúdo bottom
+
+; Theme settings
+settings[toggle_logo] = 0
+settings[theme_color] = green
+
+; Modules recommend to install
+; menu_attributes
+; jquery_update
+; block_class
+; image_class

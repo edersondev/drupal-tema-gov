@@ -1,0 +1,104 @@
+
+/* Medium devices Desktops and Large devices Desktops */
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+  }
+  .h1, h1 {
+    font-size: 30px;
+  }
+
+  .site_actions,
+  .social_media,
+  .region-search,
+  .barra-servicos {
+    text-align: right;
+  }
+  .start_content {
+    margin-top: 10px;
+  }
+
+  .region-content {
+    margin-bottom: 10px;
+  }
+}
+
+/* Small devices Tablets */
+@media (max-width: 992px) and (min-width: 768px) {
+  .h1, h1 {
+    font-size: 24px;
+  }
+  .start_content {
+    margin-top: 10px;
+  }
+}
+
+/* Extra small devices Phones */
+@media (max-width: 768px) {
+  .h1, h1 {
+    font-size: 18px;
+  }
+  .h4, h4 {
+    font-size: 14px;
+  }
+  .navbar {
+    min-height: 0px;
+    margin-bottom: 0px;
+  }
+
+  .site_name h1 {
+    margin: 0px 0px 8px 0px !important;
+  }
+
+  .start_content {
+    margin-top: 0px;
+  }
+}
+
+.site_name h1 {
+  margin: 0px;
+}
+
+li.expanded, li.collapsed, li.leaf {
+  padding: 0px;
+}
+
+.region-content-top {
+  padding: 0px 0px 10px 0px;
+}
+
+.dropdown-menu li {
+  list-style-image: none !important;
+  list-style-type: none !important;
+}
+
+#page-title {
+  margin-top: 0px;
+}
+
+.alto-contraste {
+  cursor: pointer;
+}
+
+.region-sidebar-top ul.menu {
+  padding: 0px;
+}
+
+.region-sidebar-top ul.menu li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
+
+.region-sidebar-top ul.menu li {
+  border-top: 1px solid #dfdfdf;
+  padding: 10px 0;
+}
+
+.region-sidebar-top ul.menu li a {
+  color: #172938;
+}
+
+ul li.leaf {
+  list-style-image: none;
+  list-style-type: none;
+}
