@@ -11,7 +11,8 @@ body.contraste div.region-extra-footer a,
 body.contraste ol.breadcrumb,
 body.contraste ol.breadcrumb a,
 body.contraste div#main_content a,
-body.contraste input {
+body.contraste input,
+body.contraste .btn {
   background: #000 !important;
   color: #fff !important;
 }
