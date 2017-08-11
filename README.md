@@ -2,8 +2,8 @@
 
 Tema desenvolvido com referencia no site do [Portal Padrão](http://www.portalpadrao.gov.br/) utilzando o twitter bootstrap 3.
 
-Versão drupal: 7.x
-Requisito mínimo do PHP: 5.3
+- Versão drupal: 7.x
+- Requisito mínimo do PHP: 5.3
 
 Para os ícones é possível utilizar tanto do bootstrap quanto do font-awesome.
 
