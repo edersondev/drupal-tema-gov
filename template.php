@@ -117,7 +117,11 @@ function twbs_sead_preprocess_region(&$variables) {
  * @param array $vars
  */
 function twbs_sead_preprocess_image_style(&$vars) {
-  $vars['attributes']['class'][] = 'img-responsive';
+  if ( is_array($vars['attributes']['class']) ) {
+    $vars['attributes']['class'][] = 'img-responsive';
+  } else { // string
+    $vars['attributes']['class'] .= ' img-responsive';
+  }
 }
 
 /**
