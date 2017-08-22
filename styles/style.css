@@ -102,3 +102,73 @@ ul li.leaf {
   list-style-image: none;
   list-style-type: none;
 }
+
+
+div.outstanding-header {
+  min-height: 40px;
+  background: #eeeff1;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+div.outstanding-header h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+}
+
+.header-parsley {
+  border-top: 4px solid #1d571f;
+}
+
+.header-cinnamon {
+  border-top: 4px solid #753900;
+}
+
+.header-voodoo {
+  border-top: 4px solid #643C67;
+}
+
+.header-azure {
+  border-top: 4px solid #3867B7;
+}
+
+.header-laurel {
+  border-top: 4px solid #017b16;
+}
+
+.header-sharon {
+  border-top: 4px solid #ba4a00;
+}
+
+.header-denim {
+  border-top: 4px solid #1a55dd;
+}
+
+.header-crete {
+  border-top: 4px solid #56762b;
+}
+
+.header-pesto {
+  border-top: 4px solid #826938;
+}
+
+.header-calypso {
+  border-top: 4px solid #3b7390;
+}
+
+.header-gold {
+  border-top: 4px solid #b97a00;
+}
+
+.header-cobalt {
+  border-top: 4px solid #00439e;
+}
+
+.carousel-indicators {
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
