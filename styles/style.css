@@ -166,9 +166,26 @@ div.outstanding-header h1,h2,h3,h4,h5,h6 {
 .carousel-indicators {
   bottom: 0px;
   margin-bottom: 0px;
+  left: auto;
+  width: auto;
+  margin-left: auto;
+  height: 18px;
+  right: 0;
+}
+
+.carousel-indicators li {
+  border: 1px solid #006600;
+}
+
+.carousel-indicators .active {
+  background-color: #f8b904;
 }
 
 .carousel-control.right,
 .carousel-control.left {
   background-image: none;
+}
+
+div.field {
+  padding-top: 15px;
 }
