@@ -146,10 +146,14 @@ function twbs_sead_image($variables) {
     }
   }
 
-  if ( is_array($attributes['class']) ) {
-    $attributes['class'][] = 'img-responsive';
-  } else { // string
-    $attributes['class'] .= ' img-responsive';
+  if ( isset($attributes['class']) ) {
+    if ( is_array($attributes['class']) ) {
+      $attributes['class'][] = 'img-responsive';
+    } else { // string
+      $attributes['class'] .= ' img-responsive';
+    }
+  } else {
+    $attributes['class'] = 'img-responsive';
   }
 
   return '<img' . drupal_attributes($attributes) . ' />';
@@ -364,7 +368,7 @@ function addMetaBootStrap() {
 }
 
 function addGoogleFont() {
-  drupal_add_css('https://fonts.googleapis.com/css?family=Open+Sans:800', array('type' => 'external'));
+  drupal_add_css('https://fonts.googleapis.com/css?family=Open+Sans:800', array('type' => 'external', 'group' => CSS_DEFAULT));
 }
 
 
@@ -385,8 +389,8 @@ function get_size_main_content($page) {
 function setThemeColor() {
   $path = path_to_theme();
   $color = theme_get_setting('theme_color', 'twbs_sead');
-  drupal_add_css("{$path}/styles/{$color}/theme.css");
-  drupal_add_css("{$path}/styles/{$color}/navbar.css");
+  drupal_add_css("{$path}/styles/{$color}/theme.css", array('group' => CSS_THEME));
+  drupal_add_css("{$path}/styles/{$color}/navbar.css", array('group' => CSS_THEME));
 }
 
 /**
@@ -394,7 +398,7 @@ function setThemeColor() {
  */
 function checkJquery() {
   if ( !module_exists('jquery_update') ) {
-    drupal_add_js('https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', 'external');
+    drupal_add_js('https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js', array('type' => 'external','group' => JS_LIBRARY));
   }
 }
 
